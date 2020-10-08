@@ -1,0 +1,18 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY addr_mux IS
+	PORT (
+		A, B, C : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+		ctr : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+		output : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+	);
+END;
+
+ARCHITECTURE arch OF addr_mux IS
+
+BEGIN
+	output <= A WHEN ctr = "00" ELSE
+		B WHEN ctr = "01" ELSE
+		C;
+END;

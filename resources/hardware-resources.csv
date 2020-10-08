@@ -1,0 +1,13 @@
+implementation,input-size,cells,io-ports,nets,lut,ff,device-static,device-dynamic
+Selection sort,4,10,15,51,18,25,8,92
+Selection sort,8,10,27,87,37,45,15,85
+Selection sort,16,10,51,159,72,85,5,95
+Linear cell sort,4,9,12,46,41,27,5,95
+Linear cell sort,8,13,20,112,119,81,7,93
+Linear cell sort,16,21,36,338,404,283,2,98
+Odd-even sort N,4,25,37,120,86,17,6,94
+Odd-even sort N,8,81,133,712,860,65,1,99
+Odd-even sort N,16,289,517,4872,6744,258,1,99
+Odd-even sort 3,4,24,37,104,78,17,5,95
+Odd-even sort 3,8,76,133,392,431,65,1,99
+Odd-even sort 3,16,276,517,1544,1583,257,1,99
